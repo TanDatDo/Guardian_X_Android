@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/background_black"
+    tools:context="io.guardianx.guardianx_android.RegistrationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="191dp"
+            android:layout_height="121dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30dp"
+            android:src="@drawable/app_logo" />
+
+        <Button
+            android:id="@+id/login_button"
+            style="@style/button"
+            android:layout_margin="30dp"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/register_button"
+            android:text="@string/register"
+            style="@style/button"
+            android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/annoucement_resgistration"
+            android:textColor="@color/text_white"
+            android:layout_margin="5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/term_of_use_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/term_of_use"
+                android:textColor="@color/text_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" and "
+                android:textColor="@color/text_white"/>
+
+            <TextView
+                android:id="@+id/privacy_policy_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_policy"
+                android:textColor="@color/text_white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+

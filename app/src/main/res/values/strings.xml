@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GuardianX_Android</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="annoucement_resgistration">By logging in or registering, you agree to our</string>
+    <string name="term_of_use"> <u>Term of Use</u> </string>
+    <string name="privacy_policy"> <u>Privacy Policy</u> </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map_view">MapViewActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="term_of_use_link">https://www.guardianx.io/terms-and-conditions</string>
+    <string name="privacy_policy_link">https://www.guardianx.io/privacy-policy</string>
+    <string name="toast_password">the password is shorter than 8 characters</string>
+    <string name="toast_username">User name is empty</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="title_login">Login</string>
+</resources>
